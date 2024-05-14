@@ -1,6 +1,6 @@
 from fastapi import FastAPI, HTTPException
 from fastapi.responses import RedirectResponse
-#better better
+#better better better
 app = FastAPI()
 
 @app.get("/http-cat/{status_code}")
